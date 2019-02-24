@@ -1,0 +1,19 @@
+Our API:
+
+Resources:
+1. /products
+  Supports
+    GET
+    POST
+2. /products/{id}
+    GET
+    PATCH - Change/Update
+    DELETE
+3. /orders
+    GET
+    POST
+4. /orders/{id}
+    GET
+    DELETE
+
+Auth for all endpoints except product index/id GET requests
